@@ -1,0 +1,9 @@
+.container{
+    height: 45vw;
+    background-color: var(--bg);
+}
+.containerdev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

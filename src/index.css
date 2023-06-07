@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+:root{
+  font-family: 'Open Sans', sans-serif;
+  --bg: #1F1F1F;
+  --text: #F7F7F7;
+  --color-alt: #E65F78;
+}
