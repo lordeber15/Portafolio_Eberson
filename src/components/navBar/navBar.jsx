@@ -9,8 +9,8 @@ export default function navBar() {
         <img src={img} className={style.logoimg} />
       </Link>
       <div className={style.buttons}>
-        <Link>Experiencia</Link>
         <Link>About</Link>
+        <Link>Experiencia</Link>
         <Link>Tech Skills</Link>
         <Link>Portafolio</Link>
         <Link>Contacto</Link>
