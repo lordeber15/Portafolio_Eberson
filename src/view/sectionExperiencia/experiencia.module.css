@@ -1,0 +1,17 @@
+.container{
+    background-color: var(--bg-alt);
+    color: var(--text);
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.contaierCards{
+    margin: 6% 15% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
