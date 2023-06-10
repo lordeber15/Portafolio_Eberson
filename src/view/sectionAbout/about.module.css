@@ -17,11 +17,12 @@
 }
 .fotoImagen>img{
     border: 1px solid var(--text);
-    width: 250px;
-    box-shadow: 5px 10px
+    width: 200px;
+    box-shadow: 5px 5px;
 }
 .containerimage{
     display: flex;
+    justify-content: center;
     padding: 0% 15%;
     gap: 5%;
 }
@@ -39,7 +40,7 @@
 .detallePerfil{
     display: flex;
     margin-top: 5%;
-    gap: 5%;
+    gap: 4%;
     flex-wrap: wrap;
     
 }
@@ -50,8 +51,8 @@
 .experiencia{
     display: flex;
     justify-content: center;
-    margin: 4% 30%;
-    padding: 3% 1%;
+    margin: 5% 27%;
+    padding: 2% 2%;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: var(--bg);
@@ -65,8 +66,27 @@
 .experienciadiv>p{
     display: flex;
     justify-content: center;
-    font-size: 12px;
+    font-size: 14px;
 }
 .aboutme{
     text-align: justify;
+}
+
+.detalleSpace{
+    font-weight: 700;
+}
+
+.btnDescarga{
+    width: 100%;
+    margin-top: 5%;
+    box-shadow: 5px 5px;
+    color: var(--color-alt);
+    background-color: var(--bg);
+    border-radius: 2px;
+    padding: 10px 0px;
+    transition: 0.4s;
+}
+.btnDescarga:hover{
+    background-color: var(--text);
+    color: var(--bg-alt);
 }

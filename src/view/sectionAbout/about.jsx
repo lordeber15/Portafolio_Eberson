@@ -1,6 +1,20 @@
 import style from "./about.module.css";
-import image from "../../assets/react.svg";
+import image from "../../assets/foto.jpg";
 export default function about() {
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch("CV_Eberson_Palomino_Aguilar.pdf").then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "CV_Eberson_Palomino_Aguilar.pdf";
+        alink.click();
+      });
+    });
+  };
   return (
     <div className={style.container}>
       <div className={style.title}>
@@ -10,6 +24,9 @@ export default function about() {
         <div className={style.containerimage}>
           <div className={style.fotoImagen}>
             <img src={image}></img>
+            <button className={style.btnDescarga} onClick={onButtonClick}>
+              Descargar CV
+            </button>
           </div>
           <div className={style.aboutme}>
             <p>
@@ -44,7 +61,7 @@ export default function about() {
               </p>
             </p>
             <div className={style.detallePerfil}>
-              <div>
+              <div className={style.detalleSpace}>
                 <p>Email:</p>
                 <p>Ubication:</p>
                 <p>Age:</p>
@@ -54,7 +71,7 @@ export default function about() {
                 <p>Ayacucho</p>
                 <p>32 años</p>
               </div>
-              <div>
+              <div className={style.detalleSpace}>
                 <p>Nacionalidad:</p>
                 <p>Educación:</p>
                 <p>Grado:</p>
