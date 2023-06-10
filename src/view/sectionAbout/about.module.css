@@ -85,8 +85,10 @@
     border-radius: 2px;
     padding: 10px 0px;
     transition: 0.4s;
+    cursor: pointer;
 }
 .btnDescarga:hover{
     background-color: var(--text);
+    transition: 0.4s;
     color: var(--bg-alt);
 }
