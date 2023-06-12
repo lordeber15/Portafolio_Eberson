@@ -1,11 +1,11 @@
 import style from "./cardTechSkills.module.css";
-import imagen from "../../assets/react.svg";
-export default function cardSkills() {
+
+export default function cardSkills({ imagen, nametech }) {
   return (
     <div className={style.container}>
       <div className={style.card}>
         <img className={style.img} src={imagen} />
-        <div className={style.nametech}>CardSkills</div>
+        <p className={style.nametech}>{nametech}</p>
       </div>
     </div>
   );
