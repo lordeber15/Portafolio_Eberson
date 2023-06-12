@@ -2,7 +2,7 @@ import style from "./portafolio.module.css";
 import Cardporfolio from "../../components/cardsportfolio/cardporfolio";
 import imagen from "../../assets/beautify.png";
 import rickamorty from "../../assets/images.jpeg";
-import dog from "../../assets/dogs.jpg";
+import dogs from "../../assets/dogs.jpg";
 export default function portafolio() {
   return (
     <div className={style.container}>
@@ -45,7 +45,7 @@ export default function portafolio() {
           ]}
         />
         <Cardporfolio
-          img={dog}
+          img={dogs}
           title={"API Dog's"}
           description={
             "Pagina que consume la API Dog's con filtros combinados, busqueda por coincidencia, vista de favoritos"
