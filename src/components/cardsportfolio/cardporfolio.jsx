@@ -4,10 +4,11 @@ export default function cardporfolio() {
   return (
     <div className={style.container}>
       <img className={style.img} src={imagen} />
-      <div className={style.title}>Rick and Morty</div>
-      <p>
-        Lorem ipsosLorem ipsos Lorem ipsosLorem ipsos Lorem ipsos Lorem
-        ipsosLorem ipsosLorem ipsos Lorem ipsosLorem ipsos
+      <div className={style.title}>Beautify</div>
+      <p className={style.description}>
+        Plataforma de E-commerce con filtros combinados, mercado pago, reserva
+        de turnos, dashboard de administrador, agregar producto, agregar
+        servicios
       </p>
       <div className={style.containerlenguaje}>
         <div className={style.lg}>React</div>

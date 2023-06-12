@@ -37,3 +37,8 @@
 .lg:hover{
     background-color: var(--bg-alt);
 }
+.description{
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: justify;
+}
