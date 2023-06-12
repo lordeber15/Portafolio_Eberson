@@ -2,7 +2,7 @@ import style from "./portafolio.module.css";
 import Cardporfolio from "../../components/cardsportfolio/cardporfolio";
 import imagen from "../../assets/beautify.png";
 import rickamorty from "../../assets/images.jpeg";
-import dogs from "../../assets/dogs.jpg";
+import dogs from "../../assets/dogss.jpg";
 export default function portafolio() {
   return (
     <div className={style.container}>
