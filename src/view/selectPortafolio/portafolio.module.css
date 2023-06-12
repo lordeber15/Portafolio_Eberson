@@ -1,0 +1,15 @@
+.container{
+    background-color: var(--bg-alt);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.cards{
+    margin: 0% 18%;
+}

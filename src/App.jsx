@@ -4,6 +4,7 @@ import Home from "./view/home/home";
 import About from "./view/sectionAbout/about";
 import Experiencia from "./view/sectionExperiencia/experiencia";
 import Skills from "./view/SectionSoftSkils/skills";
+import Portafolio from "./view/selectPortafolio/portafolio";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Experiencia />
       <Skills />
+      <Portafolio />
     </div>
   );
 }
