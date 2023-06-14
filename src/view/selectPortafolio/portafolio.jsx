@@ -6,7 +6,7 @@ import dogs from "../../assets/dogss.jpg";
 
 export default function portafolio() {
   return (
-    <div className={style.container}>
+    <div id="portafolio" className={style.container}>
       <h1 className={style.title}>Portafolio</h1>
       <div className={style.cards}>
         <Cardporfolio

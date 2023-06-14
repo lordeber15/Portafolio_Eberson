@@ -13,7 +13,7 @@ import sequelize from "../../assets/sequelize-logo.png";
 
 export default function skills() {
   return (
-    <div className={style.container}>
+    <div id="skills" className={style.container}>
       <h1 className={style.title}>Tech Skills</h1>
       <div className={style.cardContainer}>
         <CardSkills imagen={react} />

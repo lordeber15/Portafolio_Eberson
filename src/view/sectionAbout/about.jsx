@@ -16,7 +16,7 @@ export default function about() {
     });
   };
   return (
-    <div className={style.container}>
+    <div id="about" className={style.container}>
       <div className={style.title}>
         <p>About Me</p>
       </div>

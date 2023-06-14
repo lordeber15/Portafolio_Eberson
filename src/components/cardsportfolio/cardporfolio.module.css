@@ -50,7 +50,7 @@ box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.47);
     margin-top: 3px;
     border-radius: 5px;
 }
-a{
+.container a{
     width: fit-content;
     margin: 2% 0%;
 }
