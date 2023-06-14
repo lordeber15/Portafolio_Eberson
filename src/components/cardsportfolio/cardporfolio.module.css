@@ -15,14 +15,6 @@ box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.47);
     margin: 4% 0%;
     font-size: 19px;
 }
-.img{
-    
-    display: flex;
-    background-color: #F5B7B1;
-    justify-content: center;    
-    margin-top: 3px;
-    border-radius: 5px;
-}
 
 .containerlenguaje{
     display: flex;
@@ -49,4 +41,16 @@ box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.47);
     font-size: 14px;
     margin-bottom: 5px;
     text-align: justify;
+}
+.img{
+    
+    display: flex;
+    background-color: #F5B7B1;
+    justify-content: center;    
+    margin-top: 3px;
+    border-radius: 5px;
+}
+a{
+    width: fit-content;
+    margin: 2% 0%;
 }

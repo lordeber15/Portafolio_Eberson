@@ -3,12 +3,14 @@ import Cardporfolio from "../../components/cardsportfolio/cardporfolio";
 import imagen from "../../assets/beautify.png";
 import rickamorty from "../../assets/images.jpeg";
 import dogs from "../../assets/dogss.jpg";
+
 export default function portafolio() {
   return (
     <div className={style.container}>
       <h1 className={style.title}>Portafolio</h1>
       <div className={style.cards}>
         <Cardporfolio
+          deploy={"https://main--transcendent-puffpuff-9a3f80.netlify.app/"}
           img={imagen}
           title={"Beautify"}
           description={
@@ -28,6 +30,7 @@ export default function portafolio() {
           ]}
         />
         <Cardporfolio
+          deploy={"#"}
           img={rickamorty}
           title={"Rick an Morty"}
           description={
@@ -45,6 +48,7 @@ export default function portafolio() {
           ]}
         />
         <Cardporfolio
+          deploy={"https://main--clinquant-paletas-eaa06a.netlify.app/"}
           img={dogs}
           title={"API Dog's"}
           description={
